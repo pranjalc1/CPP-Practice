@@ -40,7 +40,6 @@ int main() {
         pasture[coords[i][0]][coords[i][1]] += 1;
     }
     
-    // I wrote this part of the solution after seeing the reasoning behind the official solution. 
     vector<vector<int>> total_coords = pasture;
 
     for (int i = 0; i < N; i++) {
